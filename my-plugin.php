@@ -5,9 +5,7 @@
   Author: Omomoh Agiogu
  */
 
-/**
- * Adds my_Social_Profile widget.
- */
+
 
 class my_Social_Profile widget extends WP_Widget {
 
