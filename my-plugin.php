@@ -6,17 +6,17 @@
  */
 
 /**
- * Adds Designmodo_Social_Profile widget.
+ * Adds my_Social_Profile widget.
  */
 
-class Designmodo_Social_Profile extends WP_Widget {
+class my_Social_Profile widget extends WP_Widget {
 
     /**
      * Register widget with WordPress.
      */
     function __construct() {
         parent::__construct(
-                'Designmodo_Social_Profile',
+                'my_Social_Profile widget',
                 __('Social Networks Profiles', 'translation_domain'), // Name
                 array('description' => __('Links to Author social media profile', 'translation_domain'),)
         );
@@ -137,12 +137,12 @@ class Designmodo_Social_Profile extends WP_Widget {
 
 }
 
-// register Designmodo_Social_Profile widget
-function register_designmodo_social_profile() {
-    register_widget('Designmodo_Social_Profile');
+// register my_Social_Profile widget
+function register_my_Social_Profile widget() {
+    register_widget('my_Social_Profile widget');
 }
 
-add_action('widgets_init', 'register_designmodo_social_profile');
+add_action('widgets_init', 'register_my_Social_Profile widget');
 
 // enqueue css stylesheet
 function my_plugin_widget_css() {
