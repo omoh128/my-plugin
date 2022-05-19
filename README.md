@@ -1,1 +1,1 @@
-# Widget plugun
+# Wordpress Widget plugin
